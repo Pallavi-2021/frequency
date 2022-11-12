@@ -1,0 +1,11 @@
+test_str=input("Enter a word:")
+all_freq = {}
+  
+for i in test_str:
+    if i in all_freq:
+        all_freq[i] += 1
+    else:
+        all_freq[i] = 1
+  
+
+print ("Freuency is :\n "+ str(all_freq))
